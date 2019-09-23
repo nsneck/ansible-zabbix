@@ -1,0 +1,5 @@
+---
+# vars file for zbx-server
+
+mysql_root_passwd: very_much_not_secure_password
+mysql_zabbix_passwd: nonsecure_example_pass

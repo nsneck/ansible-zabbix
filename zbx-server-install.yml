@@ -1,0 +1,7 @@
+---
+
+- name: Install and configure the Zabbix server
+  connection: network_cli
+  hosts: zbx_server
+  roles:
+    - zbx-server
