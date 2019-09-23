@@ -7,7 +7,7 @@ root authentication plugin, as was done with this project.)
 
 usage:
 
-`ansible-playbook -i hosts -k --ask-become-pass zbx-server-install.yml`
+`ansible-playbook -i hosts -k --ask-become-pass zbx-server-install.yml`  
 Installs and configures the Zabbix server on given host(s).
 Leads you to the Zabbix web configuration page.
 Only tested to work under Ubuntu 18.04, definitely not working on
